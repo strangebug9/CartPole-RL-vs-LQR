@@ -1,12 +1,5 @@
 # CartPole-RL-vs-LQR
 基于强化学习（PPO/REINFORCE/A2C）与经典控制理论（LQR）的倒立摆（CartPole-v1）控制对比实验。
-太棒了！跨过了网络和权限的坎，代码成功推送到 GitHub，这是一次非常完整的工程实践。
-
-为了让你的开源仓库看起来极具专业度，我为你撰写了一份排版精美、逻辑严密且符合 GitHub 学术开源规范的完整 `README.md`。这份文档不仅整合了你的实验亮点，还为你梳理了文件结构和运行指南。
-
-你可以直接在 GitHub 网页端你的仓库主页点击 **"Add a README"**（或者新建文件命名为 `README.md`），然后将以下全部内容复制进去并保存：
-
----
 
 ```markdown
 # 基于强化学习与经典控制理论的倒立摆控制对比实验
@@ -29,19 +22,19 @@
 
 ```text
 📦 CartPole-RL-vs-LQR
- ┣ 📜 lqr.py                  # 传统经典控制 LQR 算法闭环测试脚本 (绝对基准)
- ┣ 📜 ppo.py                  # 基于 Actor-Critic 架构的 PPO 算法实现脚本
- ┣ 📜 reinforce.py            # 基于无基线蒙特卡洛策略梯度的 REINFORCE 算法脚本
- ┣ 📜 a2c.py                  # 纯 1-step TD 更新的 A2C 算法脚本 (灾难性遗忘反面教材)
- ┣ 📜 lqr_metrics.csv         # LQR 运行过程收敛数据记录
- ┣ 📜 ppo_metrics.csv         # PPO 训练过程收敛与策略熵数据记录
- ┣ 📜 reinforce_metrics.csv   # REINFORCE 训练数据记录
- ┣ 📜 a2c_metrics.csv         # A2C 训练数据记录
- ┣ 📜 reward_paint.m          # MATLAB 脚本：绘制奖励与步数平滑对比图 (2x2子图)
- ┣ 📜 entropy_paint.m         # MATLAB 脚本：绘制策略熵 (Entropy) 衰减对比图
- ┣ 🖼️ Reward_Comparison.png   # 实验结果输出：各算法收敛曲线综合对比
- ┣ 🖼️ Entropy_Comparison.png  # 实验结果输出：策略熵衰减曲线
- ┗ 🖼️ 图 1/2/3...png          # 实验设计、网络更新与基准测试流程图
+ ┣  lqr.py                  # 传统经典控制 LQR 算法闭环测试脚本 (绝对基准)
+ ┣  ppo.py                  # 基于 Actor-Critic 架构的 PPO 算法实现脚本
+ ┣  reinforce.py            # 基于无基线蒙特卡洛策略梯度的 REINFORCE 算法脚本
+ ┣  a2c.py                  # 纯 1-step TD 更新的 A2C 算法脚本 (灾难性遗忘反面教材)
+ ┣  lqr_metrics.csv         # LQR 运行过程收敛数据记录
+ ┣  ppo_metrics.csv         # PPO 训练过程收敛与策略熵数据记录
+ ┣  reinforce_metrics.csv   # REINFORCE 训练数据记录
+ ┣  a2c_metrics.csv         # A2C 训练数据记录
+ ┣  reward_paint.m          # MATLAB 脚本：绘制奖励与步数平滑对比图 (2x2子图)
+ ┣  entropy_paint.m         # MATLAB 脚本：绘制策略熵 (Entropy) 衰减对比图
+ ┣  Reward_Comparison.png   # 实验结果输出：各算法收敛曲线综合对比
+ ┣  Entropy_Comparison.png  # 实验结果输出：策略熵衰减曲线
+ ┗  图 1/2/3...png          # 实验设计、网络更新与基准测试流程图
 
 ```
 
