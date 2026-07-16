@@ -4,7 +4,6 @@
 
 ```markdown
 # 基于强化学习与经典控制理论的倒立摆控制对比实验
-> **任务1实验报告（基于强化学习的倒立摆控制）开源代码仓库**
 
 本项目在 Gymnasium CartPole-v1 经典控制环境下，系统性地对比了经典控制理论中的 **LQR（线性二次型调节器）** 与三种典型的深度强化学习算法——**PPO（近端策略优化）**、**REINFORCE（无基线蒙特卡洛策略梯度）** 以及 **A2C（优势演员-评论家）** 在不稳定非线性系统中的控制效果、收敛速度及渐进稳定性。
 
@@ -35,20 +34,20 @@
 
 ```text
 📦 CartPole-RL-vs-LQR
- ┣ 📜 lqr.py                  # 传统经典控制 LQR 算法闭环测试脚本 (绝对基准)
- ┣ 📜 ppo.py                  # 基于 Actor-Critic 架构的 PPO 算法实现脚本
- ┣ 📜 reinforce.py            # 基于无基线版蒙特卡洛策略梯度的 REINFORCE 脚本
- ┣ 📜 a2c.py                  # 纯 1-step TD 更新的 A2C 算法脚本
- ┣ 📜 lqr_metrics.csv         # LQR 运行过程收敛数据记录
- ┣ 📜 ppo_metrics.csv         # PPO 训练过程收敛与策略熵数据记录
- ┣ 📜 reinforce_metrics.csv   # REINFORCE 训练数据记录
- ┣ 📜 a2c_metrics.csv         # A2C 训练数据记录
- ┣ 📜 reward_paint.m          # MATLAB 可视化脚本：绘制奖励与步数平滑对比图
- ┣ 📜 entropy_paint.m         # MATLAB 可视化脚本：绘制策略熵衰减对比图
- ┣ 🖼️ Reward_Comparison.png   # 实验结果输出：各算法收敛曲线综合对比
- ┣ 🖼️ Entropy_Comparison.png  # 实验结果输出：策略熵衰减曲线
- ┣ 📜 requirements.txt        # Python 核心依赖版本锁定文件
- ┗ 📜 LICENSE                 # MIT 开源许可证文件
+ ┣  lqr.py                  # 传统经典控制 LQR 算法闭环测试脚本 (绝对基准)
+ ┣  ppo.py                  # 基于 Actor-Critic 架构的 PPO 算法实现脚本
+ ┣  reinforce.py            # 基于无基线版蒙特卡洛策略梯度的 REINFORCE 脚本
+ ┣  a2c.py                  # 纯 1-step TD 更新的 A2C 算法脚本
+ ┣  lqr_metrics.csv         # LQR 运行过程收敛数据记录
+ ┣  ppo_metrics.csv         # PPO 训练过程收敛与策略熵数据记录
+ ┣  reinforce_metrics.csv   # REINFORCE 训练数据记录
+ ┣  a2c_metrics.csv         # A2C 训练数据记录
+ ┣  reward_paint.m          # MATLAB 可视化脚本：绘制奖励与步数平滑对比图
+ ┣  entropy_paint.m         # MATLAB 可视化脚本：绘制策略熵衰减对比图
+ ┣  Reward_Comparison.png   # 实验结果输出：各算法收敛曲线综合对比
+ ┣  Entropy_Comparison.png  # 实验结果输出：策略熵衰减曲线
+ ┣  requirements.txt        # Python 核心依赖版本锁定文件
+ ┗  LICENSE                 # MIT 开源许可证文件
 
 ```
 
