@@ -46,8 +46,6 @@
  ┣  entropy_paint.m         # MATLAB 可视化脚本：绘制策略熵衰减对比图
  ┣  Reward_Comparison.png   # 实验结果输出：各算法收敛曲线综合对比
  ┣  Entropy_Comparison.png  # 实验结果输出：策略熵衰减曲线
- ┣  requirements.txt        # Python 核心依赖版本锁定文件
- ┗  LICENSE                 # MIT 开源许可证文件
 
 ```
 
